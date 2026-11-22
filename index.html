@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festiwal Retrotechniki 2026 | Centrum Nowych Mediów</title>
+  <meta name="description" content="Dwa dni wykładów i warsztatów o dawnych komputerach, taśmach i archiwach cyfrowych.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Festiwal Retrotechniki 2026",
+    "startDate": "2026-11-28",
+    "location": { "@type": "Place", "name": "Centrum Nowych Mediów", "address": "ul. Przykładowa 1, Kraków" },
+    "organizer": { "@type": "Organization", "name": "Centrum Nowych Mediów" }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" width="40" height="40" alt="Logo Festiwalu Retrotechniki">Retrotechnika</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Pokaż menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prelegenci">Prelegenci</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bilety">Bilety</a></li>
+          <li class="nav-item"><a class="nav-link" href="#regulamin">Regulamin</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container py-5">
+      <span class="plakietka">Nowość!</span>
+      <h1>Festiwal Retrotechniki i&nbsp;Przyszłości Danych</h1>
+      <p class="lead">Dwa dni wykładów i warsztatów o dawnych komputerach, taśmach i archiwach cyfrowych.</p>
+      <a href="#bilety" class="btn btn-warning btn-zapis" title="Zapisz się">✎</a>
+    </section>
+    <section class="container">
+      <div class="baner-partnerzy">Partnerzy: Muzeum Komputerów · Archiwum Cyfrowe · Radio Retro · Fundacja Taśma</div>
+    </section>
+    <section id="program" class="container py-4">
+      <h2>Program</h2>
+      <ul>
+        <li>10:00 Jak czytać taśmy magnetyczne po 40 latach</li>
+        <li>11:30 Emulacja zamiast muzeum: ratowanie starych gier</li>
+        <li>14:00 Warsztat: digitalizacja dyskietek</li>
+      </ul>
+      <img src="img/sala.svg" class="img-fluid rounded" width="300" height="200" alt="Sala główna Centrum podczas warsztatów">
+    </section>
+    <section id="prelegenci" class="container py-4">
+      <h2>Prelegenci</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <img src="img/prelegent1.svg" class="img-fluid rounded" width="300" height="200" alt="Dr Anna Wiśniewska podczas wykładu">
+          <h3 class="h5 mt-2">Dr Anna Wiśniewska</h3>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="img/prelegent2.svg" class="img-fluid rounded" width="300" height="200" alt="Prof. Jan Malec z taśmą magnetyczną">
+          <h3 class="h5 mt-2">Prof. Jan Malec</h3>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="img/prelegent3.svg" class="img-fluid rounded" width="300" height="200" alt="Inż. Ewa Sobczak przy serwerze">
+          <h3 class="h5 mt-2">Inż. Ewa Sobczak</h3>
+        </div>
+      </div>
+    </section>
+    <section id="bilety" class="container py-4">
+      <h2>Bilety</h2>
+      <form>
+        <label for="email" class="form-label mb-0">Adres e-mail</label>
+        <input id="email" type="email" class="form-control" placeholder="Twój e-mail" required>
+        <button type="submit" class="btn btn-primary">Zapisz mnie</button>
+      </form>
+    </section>
+    <section id="regulamin" class="container py-4">
+      <h2>Regulamin</h2>
+      <p>Udział w wydarzeniu jest bezpłatny po rejestracji.</p>
+    </section>
+  </main>
+  <footer id="kontakt" class="stopka py-4">
+    <div class="container">
+      <p>Centrum Nowych Mediów, ul. Przykładowa 1, Kraków · kontakt@przyklad.pl</p>
+    </div>
+  </footer>
+  <script src="vendor/bootstrap.bundle.min.js"></script>
+  <script src="skrypt.js"></script>
+</body>
+</html>
